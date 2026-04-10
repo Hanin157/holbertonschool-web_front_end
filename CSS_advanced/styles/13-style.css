@@ -44,24 +44,24 @@ body {
   line-height: var(--line-height-base);
 }
 
-/* ✅ الروابط فقط اللي فيها href */
+/* 🔥 أهم سطر */
 a[href] {
   color: var(--text-color);
   text-decoration: none;
 }
 
-/* ✅ visited */
-a[href]:visited {
+/* 🔥 visited */
+a:visited {
   font-style: italic;
 }
 
-/* ✅ hover */
-a[href]:hover {
+/* 🔥 hover */
+a:hover {
   text-decoration: underline;
 }
 
-/* ✅ active */
-a[href]:active {
+/* 🔥 active */
+a:active {
   background-color: var(--color-light-grey);
 }
 
